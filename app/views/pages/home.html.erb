@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to my webpage</title>
-</head>
-<style>
-
-
-IMG.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
-.text {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-}
-</style>
-<body>
-
-<h1 style="text-align:center;font-family:Comic Sans MS">Welcome to Alpha Blog!</h1>
-
-  <IMG class="displayed" src="https://coolspot7.files.wordpress.com/2012/08/image6.png" alt="Mountain View" style="width:920px;height:120px;">
-  <div class="text">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+<div class="center jumbotron">
+  <h1>ALPHA BLOG</h1>
+  <%= link_to "Sign up Now", "#", class: "btn btn-primary btn-lg btn-xlarge" %>
 </div>
 
-    <%= link_to "Alpha Blog", articles_path %> | <%= link_to 'About', about_path %>
 
-</body>
-</html>
